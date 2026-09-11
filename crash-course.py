@@ -51,7 +51,7 @@ print(f"e is equal to {e} ")
 
 e -= 7
 
-e+=12
+e+=12 
 
 print(f"e is NOW equal to {e}")
 
@@ -132,3 +132,105 @@ print(math.sqrt(14))
 print(math.ceil(3.65))#ceil is to round up
 print(math.floor(8.94))#floor is round down
 print(math.pow(2, 4))#it shows the  exponent 2 to the power of 4 
+
+
+#Conditionals for example if something happens this happens
+
+
+#These include, if , elif(else if ), else 
+
+t = True
+f = False
+
+if f:
+    print("You reached the first condition ")
+else:
+    print("Reached else")
+
+
+
+if 1 != 2:
+    print("You reached the first condition ")
+else:
+    print("Reached else")
+
+
+if 1 == 2:
+    print("You reached the first condition ")
+else:
+    print("Reached else")
+
+
+if f: #it runs the final block because the first two blocks of code are not true so it returns the final block
+    print("You reached the first condition ")
+
+elif t:
+    print("Reached second condition")
+else:
+    print("Reached else")
+
+
+if 1 > 1 and 1 == 1:
+    print("You reached the first condition ")
+elif 9 != 9 or 3 !=3 :
+    print("Reached second condition")
+elif 10 != 10:
+    print("Reached third condition")
+else:
+    print("Reached else")
+
+#Lists 
+# A list can hold any type, and can grow or shrink at any time.
+# to make a list you use brackets python automatically recognonizes it 
+#to count what is within your lists you use what is called a index.
+# for example 34 would b index 0, and so on and so forth as you count up. 
+
+nums = [34,52,3,8,64]
+
+print(nums)
+
+# To print a specfic value/item within the list you would print just like below 
+
+print(nums[0])
+print(nums[1])
+print(nums[2])
+print(nums[3])
+print(nums[4])
+
+#you can use negative numbers to index the numebr and pull in a backwards order
+print(nums[-1])
+print(nums[-2])
+print(nums[-3])
+
+#to pull out numbers and perform  a function you would do it like the way the you did it below
+
+print(nums[1] + nums[4])
+
+#to change or to do something within a list you would do it like this
+
+nums[0] = 13
+nums[1] = 24
+nums[2] = 15
+nums[4] = 2012
+
+print(nums)
+
+#list methods these are special built in methods
+#you use a special dot operator . append mean to add something to the end of it  and same for remove words.remove or words.append
+words = []
+
+words.append("Vibhu")
+words.append("Ritika")
+words.append("Priya")
+words.append("Vasanth")
+words.append("Hi")
+
+print(words)
+words.remove("Hi")
+words.insert(0, "Our Family ")
+#There is a special function called length which prints the number of items within your list 
+length = len(words)
+
+print(words)
+
+print(length)
