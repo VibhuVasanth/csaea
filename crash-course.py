@@ -234,3 +234,57 @@ length = len(words)
 print(words)
 
 print(length)
+
+
+
+# Loops/ iteration 
+# A for loop will iterate over a RANGE
+## A range (Stop), range (start, stop), range(start, stop, step)
+# it goes through each item in your conditions 
+
+
+
+for i in range(5):
+    print(i)
+
+animals = ["Sheep", "Deer", "Moose"]
+print(f"List: {animals}")
+
+for a in animals :
+    print(f"We saw a {a}")
+
+
+nums = [5.1 , 2.2, 5.3, 3.4, 8.5]
+
+# print each value in list nums
+
+# for n in nums :
+    # print(n)
+    
+
+for i in range(len(nums)):
+    print(nums[i])
+
+#debugging- is when you understand the code or see why it is not working
+
+print(len(nums))
+
+
+
+# A while a loop, this runs until the condition is true 
+# when the codition becomes false, it stops
+
+x = 5
+
+x < 10 
+
+while x < 10:
+    print(x)
+    x +=1
+
+
+t = True 
+F = False
+
+while t or F:
+    print("hi")
