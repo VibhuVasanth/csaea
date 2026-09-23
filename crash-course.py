@@ -87,6 +87,8 @@ f = False
 t = True
 print(not f )#True
 
+print (t and f)#True 
+
 print (f and t ) #False
 
 print(f or t ) #True
@@ -286,5 +288,5 @@ while x < 10:
 t = True 
 F = False
 
-while t or F:
-    print("hi")
+# while t or F:
+    # print("hi")
