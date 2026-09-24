@@ -31,3 +31,13 @@ print(not f or t and f)
 
 
 print(nums[-len(nums)])
+
+
+x = 5
+while x < 10: # This type of question will be on the AP exam, 11 would still print because just first think about it.
+    x += 2
+    print(x)
+
+
+for i in range(10, 0, -3):
+    print(i)
