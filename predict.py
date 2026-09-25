@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import math 
 
 f = False 
@@ -12,6 +11,7 @@ print(7 // 2, 7 % 2, -7 // 2)
 
 
 print(int(-5.9), math.floor(-5.9))
+
 
 
 print("5" * 3, "5" + "5")
@@ -42,6 +42,6 @@ while x < 10: # This type of question will be on the AP exam, 11 would still pri
 
 for i in range(10, 0, -3):
     print(i)
-=======
 
->>>>>>> e1a4877fa13111d6832879f609eef9d6ab39a2dc
+
+
