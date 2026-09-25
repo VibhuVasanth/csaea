@@ -51,7 +51,7 @@ first = "Vibhu"
 last = "Vasanth "
 school = "CSAEA "
 
-print(f"Hello my name is  {first}  {last} from { school}" )
+print(f"Hello my name is  {first}  {last} from { school}")
 
 print("MOVING ONTO NEXT CHALLENGE")
 
