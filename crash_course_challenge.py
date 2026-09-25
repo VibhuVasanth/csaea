@@ -1,3 +1,5 @@
+import math 
+
 #1.Tip calculator challenge 
 bill = 50 
 tip = 20/100 *  50 
@@ -61,3 +63,72 @@ groceries. insert (0 , "cheese")
 
 print(len(groceries))
 print(groceries)
+
+print("MOVING ONTO NEXT CHALLENGE")
+
+#7.Times Table Helper 
+
+number = 7 
+i = 1 
+for i in range(1, 11):
+     new_number = number * i 
+     print(f"{number}*{i} = {new_number}")
+
+
+
+print("MOVING ONTO NEXT CHALLENGE")
+
+
+# Roller Coaster gate 8
+
+height = 50
+age = 8
+has_adult = True
+count = 0
+
+if height >= 48 and age  > 10 :
+    print("you may ride")
+
+elif has_adult == True :
+    print(" you may ride ")
+
+else: 
+    print("you may not ride ")
+# 9 Report card 
+score = 84
+ 
+if score  >= 90:
+
+    print("A")
+elif score >= 80:
+    print("B")
+
+elif score >= 70:
+
+    print("c")
+else:
+    print("D")
+
+#10. shopping cart 
+
+cart = [12, 5, 30, 8]
+print(f"Items: {len(cart)}")
+total  = 0 
+for x in cart: 
+     total= total + x 
+print(f"${total}" )
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
