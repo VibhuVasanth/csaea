@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import math 
 
 f = False 
@@ -41,3 +42,6 @@ while x < 10: # This type of question will be on the AP exam, 11 would still pri
 
 for i in range(10, 0, -3):
     print(i)
+=======
+
+>>>>>>> e1a4877fa13111d6832879f609eef9d6ab39a2dc
