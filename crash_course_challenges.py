@@ -232,7 +232,7 @@ else:
 
 
 
-#Class Pass rate 
+#Class Pass rate #didn't finish I couldn't  understand it 
 
 grades = [88, 65, 72, 91, 54, 70]
 passing = 70
