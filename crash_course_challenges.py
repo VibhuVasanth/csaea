@@ -234,18 +234,18 @@ else:
 
 #Class Pass rate #didn't finish I couldn't  understand it 
 
-grades = [88, 65, 72, 91, 54, 70]
-passing = 70
+# grades = [88, 65, 72, 91, 54, 70]
+# passing = 70
 
-i = 0 
+# i = 0 
  
-for x in grades: 
-    if grades >= 70:
-        i = i + 1
-else: 
-    i = 0 
+# for x in grades: 
+#     if grades >= 70:
+#         i = i + 1
+# else: 
+#     i = 0 
 
-print(i)        
+# print(i)        
 
 
 
