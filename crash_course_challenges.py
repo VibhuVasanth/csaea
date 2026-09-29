@@ -20,7 +20,7 @@ print (f"212 F is {c}")
 print("MOVING ONTO NEXT CHALLENGE")
 
 
-# #3. Logic screen 
+#3. Logic screen 
 password = "csaea2026"
 attempt  = "CSAEA2026"
 
@@ -32,15 +32,15 @@ else:
 print("MOVING ONTO NEXT CHALLENGE")
 
 #4. Even and Odd Parking 
-plate = 4827
+plate = 4828
 
-odd = 4287 % 2 
+remainder = 4287 % 2 
 
-even = 4287 & 2 
 
-if odd == 1:
+
+if remainder == 1:
     print("Park on the West side ")
-elif even == 0:
+elif remainder == 0:
     print("Park on the east side")
 
 print("MOVING ONTO NEXT CHALLENGE")
