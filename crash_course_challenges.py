@@ -32,22 +32,22 @@ else:
 print("MOVING ONTO NEXT CHALLENGE")
 
 #4. Even and Odd Parking 
-plate = 4828
-
-remainder = 4287 % 2 
+plate = 4827
 
 
 
-if remainder == 1:
-    print("Park on the West side ")
-elif remainder == 0:
+
+
+if plate % 2 == 0:
     print("Park on the east side")
+else:
+    print("Park on the west side")
 
 print("MOVING ONTO NEXT CHALLENGE")
 
 #5. Name Tag Generator 
-first = "Vibhu"
-last = "Vasanth "
+first = "Ada"
+last = "Lovelace "
 school = "CSAEA "
 
 print(f"Hello my name is  {first}  {last} from { school}")
