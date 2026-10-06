@@ -47,7 +47,7 @@ print("MOVING ONTO NEXT CHALLENGE")
 
 #5. Name Tag Generator 
 first = "Ada"
-last = "Lovelace "
+last = "lovelace "
 school = "CSAEA "
 
 print(f"Hello my name is  {first}  {last} from { school}")
@@ -59,6 +59,7 @@ print("MOVING ONTO NEXT CHALLENGE")
 groceries = ["Milk", "Eggs", "Bread"]
 
 groceries. insert (0 , "cheese")
+
 
 print(len(groceries))
 print(groceries)
@@ -134,10 +135,12 @@ number_of_totalslices = x * 8
 print(f"Extra Slices:{number_of_totalslices % students}")
 
 #Rocket launch 
+import time
 start = 10
 
-for x in range(10, 1, -1):
+for x in range(start, 1, -1):
     print(x)
+    time.sleep(1)
     
 print("liftoff")
 
