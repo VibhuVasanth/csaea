@@ -18,6 +18,7 @@ print(4 , "string", 4+7, False, 3.0)
 #\t is tab and \n is for newline 
 print("Name: \tVibhu \nAge:  \t14 \nGrade \t9")
 
-height = 185
+height = 185+90
+
 
 print(f"My height is a towering { height}cm ")
