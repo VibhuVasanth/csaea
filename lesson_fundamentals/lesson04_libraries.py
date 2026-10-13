@@ -62,7 +62,7 @@ newnum2 = newnum / 7.3
 print(math.ceil(newnum2))
 
 # Bonus Challenge 
-seed2 = (newnum2 % 9 ) +1
+seed2 = (newnum2 % 10 ) +1
 seed3 = math.ceil(seed2)
 
 print(seed3)
@@ -77,3 +77,66 @@ print(seed3)
 # step3 = step2 * 10
 # result = math.ceil(step3)
 # print("Your random num is:", result)
+
+
+import random 
+
+
+random_integer = random.randint(1,100)
+print(random_integer)
+
+
+random_float = random.random()
+print(random_float)
+
+
+my_list = ["taco", "burrito", "enchilada", "quesadilla"]
+
+random_selection = random.choice(my_list)
+
+print(random_selection)
+
+random.shuffle(my_list)
+
+print(my_list)
+
+
+# Challenge 2: Simulate a Die Roll
+# Use the random library to simulate rolling a six-sided die.
+# The output should be a random integer between 1 and 6.
+# Store the result in a variable called "die_roll" and print it with a message.
+
+numbers = random. randint(1, 6)
+
+die_roll = numbers
+
+print(f"The number rolled is {die_roll}")
+
+
+# Challenge 3: Random Square Root
+# Use random library to pick a number between 1 and 75. Store it in "num".
+# Use math library to find its square root.
+# Print the number, its square root, and the square root rounded UP with the math library.
+
+num = random.randint ( 1 , 75 )
+
+num2 = math.sqrt(num)
+
+num3 = math.ceil(num2)
+
+print(f"The  number is {num}, and the square root of it is {num2} and the rounded up number is {num3}")
+
+# Challenge 4: Power Roll
+# Roll two dice with the random library: one is the "base," one is the "exponent."
+# Use math library to raise the base to the exponent. (ie, based to the PoWer of exponent)
+# Print both rolls and the result as an integer (hint: int() removes the .0).
+
+dice1 = random.randint(1 , 6)
+
+dice2 = random.randint(1 , 6)
+
+num = math.pow(dice1, dice2 )
+
+intnum = int(num)
+
+print(f"The first dice rolled {dice1} the second dice rolled {dice2} and the integer exponent is {intnum}")
