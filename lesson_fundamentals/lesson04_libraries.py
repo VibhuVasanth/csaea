@@ -52,23 +52,22 @@ print("The area of the circle is", circle_area)
 # Perform at least 3 different math calculations on it (ie, addition, subtraction, and division). 
 # Use math library to round the float UP to an integer. 
 # BONUS CHALLENGE: Make your random number output between 1 and 10. 
+import math
+seed = 123.45
 
-seed = 9
-
-num = math.pow(seed, 3)
-newnum = num /1
-newnum2 = newnum - 0.19
+num = seed + 543.21
+newnum = num -99.1
+newnum2 = newnum / 7.3
 
 print(math.ceil(newnum2))
 
 # Bonus Challenge 
-seed2 = math.ceil(newnum2)
-
-print(seed2)
-
-seed3 = seed2 / 38
+seed2 = (newnum2 % 9 ) +1
+seed3 = math.ceil(seed2)
 
 print(seed3)
+
+
 
 #Mr. Harrel Solution down below, study it and see how you can change your solution using this solution as a example
 
