@@ -118,7 +118,7 @@ else:
 # Enter a year: 1900
 # 1900 is not a leap year.
 # (Test: 2024 -> leap, 1900 -> not, 2000 -> leap)
-
+                                                 
 
 year = int(input("Enter a year: "))
 
