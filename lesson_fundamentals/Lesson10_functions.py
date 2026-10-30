@@ -79,11 +79,11 @@ print(is_far(a))
 # Second paramater: how many times the loop should run
 
 def doubler(number, times):
-    num = number    # makes a copy of the initial number to use in function
-    list_1 = []
+      num = number    
+      list_1 = []
 
     for i in range(times):
-        num = num * 2      # updates 'value' to use for next iteration (and doesn't overwrite original number)
+        num = num * 2      
         list_1.append(num)
     
     return list_1
