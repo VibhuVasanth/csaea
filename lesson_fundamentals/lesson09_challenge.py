@@ -84,12 +84,15 @@ print(total, n)
 # But this code has bugs, and is in the wrong order. 
 # Unscramble to count vowels in "pineapple". One line doesn't belong.
 # 
-#       count += 1
-#     count = 0
-#     print(count)
-#     for letter in "pineapple":
-#         if letter in "aeiou":
-#             count = 1
+       
+     count = 0
+     
+     for letter in "pineapple":
+         if letter in "aeiou":
+             count +=1
+      print(count)
+            
+
 
 # Challenge 4: Solve on whiteboard first Debug. 
 # This loop never ends! Press Ctrl+C to stop it.
