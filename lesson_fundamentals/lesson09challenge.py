@@ -117,27 +117,32 @@ print(total, n)
 #         n = 3 + 2 = 5
 # Write out the rest of the passes, until the while loop breaks.
 
-
-
+total = 0 
+n = 1
+while total <20 :
+    total = total + n
+    n +=2
+print(total)
 # Challenge 3: This code should print the number of vowels in "pineapple".
 # But this code has bugs, and is in the wrong order. 
 # Unscramble to count vowels in "pineapple". One line doesn't belong.
 # 
-#       count += 1
-#     count = 0
-#     print(count)
-#     for letter in "pineapple":
-#         if letter in "aeiou":
-#             count = 1
+      
+    count = 0
+    
+    for letter in "pineapple":
+        if letter in "aeiou":
+            count += 1
+    print(count)
 
 # Challenge 4: Solve on whiteboard first Debug. 
 # This loop never ends! Press Ctrl+C to stop it.
 # Fix it by only changing only one small thing.
 
-# n = 10
-# while n != 0:
-#     n -= 3
-# print("Escaped!")
+n = 10
+while n >= 0:
+     n -= 3
+print("Escaped!")
 
 # Challenge 5: Write a guessing game with 5 tries and hints.
 # The computer picks a secret number from 1 to 20. The player gets 5 guesses.
