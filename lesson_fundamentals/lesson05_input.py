@@ -1,22 +1,22 @@
 # USER INPUT IN PYTHON
 #print("<PROMPT>")
 
-# name = input("Enter your name: ")
-# print(f"Hello {name}")
+ name = input("Enter your name: ")
+  print(f"Hello {name}")
 
-# print(type(name))
+print(type(name))
 
-# age = input("Enter your age: ")
-# print(f"Your age is {age}")
+ age = input("Enter your age: ")
+ print(f"Your age is {age}")
 
-# print(type(age))
+ print(type(age))
 
-# age_converted = int(age)
+ age_converted = int(age)
 
-# print(type(age_converted))
+ print(type(age_converted))
 
-# height = float(input("Enter your height: "))
-# print(f"You are {height + 1} inches")
+ height = float(input("Enter your height: "))
+ print(f"You are {height + 1} inches")
 
 
 # Challenge 1: Favorite Color
