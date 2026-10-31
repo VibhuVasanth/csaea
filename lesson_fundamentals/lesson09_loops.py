@@ -4,46 +4,46 @@
 # # Python gives us for-loops and while-loops.
 
 
-# import time
+ import time
 
 # # The FOR-LOOP.
 # # A for-loop repeats for each element in a sequence (like a list or string).
 
-# animals = ["Chicken", "Lamb", "Snake", "Goose","donkey", "cow","Fish"]
+animals = ["Chicken", "Lamb", "Snake", "Goose","donkey", "cow","Fish"]
 
-# print("\nOur Animals: ", animals)
+ print("\nOur Animals: ", animals)
 
-# for animal in animals:
-#     print("Now I'm petting a",animal )
+ for animal in animals:
+     print("Now I'm petting a",animal )
 
-#     time.sleep(0.5)# pause for a full second
+     time.sleep(0.5)# pause for a full second
 
 
 # # We can loop a specfic number of times using range().
 
 
-# for i in range(5):
-#     print("\nCounting:", i)
+ for i in range(5):
+     print("\nCounting:", i)
 
-#     time.sleep(0.5)
+     time.sleep(0.5)
 
 
 # # range(start, stop, step)
 
-# for num in range(5, 100,5):
-#     print("The skipping numbers are", num)
+for num in range(5, 100,5):
+     print("The skipping numbers are", num)
 
 
 # # Strings are also iterable, so they be looped as well!
 
-# fav_word = "Shennanigans"
+ fav_word = "Shennanigans"
 
-# letter_list = []
-# for letter in fav_word:
-#     print(letter)
-#     letter_list.append(letter + "!")
+ letter_list = []
+ for letter in fav_word:
+     print(letter)
+     letter_list.append(letter + "!")
 
-# print(letter_list)
+ print(letter_list)
 
 
 # # Challenge 1: Sum Calculator
@@ -51,11 +51,11 @@
 # # ie, 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10
 # # Expected output: 55
 # print()
-# total = 0 
+ total = 0 
 
-# for i in range(1, 11):
-#     total += i
-# print(total)
+ for i in range(1, 11):
+     total += i
+ print(total)
 
 
 # # A while-loop repeats *while* a condition is true.
@@ -64,13 +64,13 @@
 
 # # += to add to a variable, -= to subtract to a variable, = to overright
 
-# count = 0
+ count = 0
 
 
-# while count < 5:
-#     print(f"Looping' -- We are on loop index # {count}")
-#     count += 1
-#     time.sleep(0.5)
+ while count < 5:
+     print(f"Looping' -- We are on loop index # {count}")
+     count += 1
+     time.sleep(0.5)
 
 # #Example with user input
 
@@ -80,17 +80,17 @@
 
 # #loop control statements
 
-# for i in range(1, 11):
-#     if i == 3:
-#         print("Skipping 3")
-#         continue
-#     if i == 6:
-#         print("Breaking at 6")
-#         break #stop the loop entierly
-#     if i == 9:
-#         pass #place holder.does nothing. will code in the future
+ for i in range(1, 11):
+     if i == 3:
+         print("Skipping 3")
+         continue
+     if i == 6:
+         print("Breaking at 6")
+         break #stop the loop entierly
+     if i == 9:
+         pass #place holder.does nothing. will code in the future
 
-#     print("Number", i)
+     print("Number", i)
 
 
 # Challenge 2: Guess Until Correct
